@@ -486,4 +486,9 @@ body {
     .project-title {
         text-align: center;
     }
+    @media (max-width: 375px) {
+        img {
+            max-width: 95%;
+        }
+    }
 }
